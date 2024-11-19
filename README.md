@@ -14,13 +14,13 @@ Compléter le fichier [menu.css](/src/css/components/carousel.css) et visualiser
 
 # Manuellement sans JS
 
-Simplement faire défiller horizontalement les images...
+Simplement faire défiler horizontalement les images...
 
-# Faire défiller par code JS
+# Faire défiler par code JS
 
 ## Tester dans la console JS du navigateur (inspecter)
 
-### Faire défiler par des commande dans la console
+### Faire défiler par des commandes dans la console
 
 Les `____` sont à remplacer par les termes corrects.
 
@@ -153,16 +153,32 @@ Doit afficher :
 260;
 ```
 
-Intégrer ces deux lignes dans le fichier [script.js](/src/js/script.js) et remplacer la constanté `260` par la valeur déterminé dynamiquement.
+Intégrer ces deux lignes dans le fichier [script.js](/src/js/script.js) et remplacer la constante `260` par la valeur déterminée dynamiquement.
 
-Tester et vérifiez que cela fonctionne toujours.
+Testez et vérifiez que cela fonctionne toujours.
 
 **Faire commit** : défilement en fonction de la largeur d'une image
 
 ## Carrousel avec taille d'image responsive
 
-Changer les CSS pour que les tailles d'items (images) soit proportionelle à la taille d'écran.
+Changer les CSS pour que les tailles d'items (images) soient proportionnelles à la taille d'écran.
 
-Tester que le scroll et les boutons fonctionne toujours de façon satisfaisante.
+Tester que le scroll et les boutons fonctionnent toujours de façon satisfaisante.
 
 **Faire commit** : Carrousel avec taille d'image responsive
+
+## Carrousel avec ancres
+
+Ajouter une liste de lien avec ancres vers les éléments du carrousel
+
+Tester le bon défilement au clic sur les ancres
+
+**Faire commit** : Carrousel avec ancres
+
+## Carrousel avec btn sur les éléments
+
+Changer les CSS pour que les boutons gauche/droite soient sur le carrousel (`position:absolute;`)
+
+Tester que le scroll et les boutons (gauche/droite) fonctionnent toujours de façon satisfaisante.
+
+**Faire commit** : Carrousel avec btn absolue
