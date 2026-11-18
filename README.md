@@ -8,7 +8,7 @@ N'oublier pas votre nom, prénom et l'URL de publication Netlify...
 
 # Complétez le CSS
 
-Compléter le fichier [menu.css](/src/css/components/carousel.css) et visualiser l'effet sur [index.html](/index.html) .
+Compléter le fichier [carousel.css](/src/css/components/carousel.css) et visualiser l'effet sur [index.html](/index.html) .
 
 **Faire un commit** : "code CSS"
 
